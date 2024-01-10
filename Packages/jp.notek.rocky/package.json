@@ -1,13 +1,16 @@
 {
   "name": "jp.notek.rocky",
   "displayName": "Rocky",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "unity": "2022.3",
   "description": "VRChat TV System based on YouTube playlist.",
   "author": {
     "name": "notoito",
     "email": "notoito.public+notek@gmail.com",
     "url": "https://social.nohto.net"
+  },
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
   },
   "vpmDependencies": {
     "com.vrchat.worlds": "^3.5.0",
