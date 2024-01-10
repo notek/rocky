@@ -1,0 +1,26 @@
+{
+    "name": "JP.Notek.Rocky.Sample",
+    "rootNamespace": "",
+    "references": [
+        "Unity.TextMeshPro",
+        "UdonSharp.Runtime",
+        "VRC.Udon",
+        "VRC.Udon.Serialization.OdinSerializer",
+        "UdonSharp.Editor",
+        "JP.Notek.Udux",
+        "JP.Notek.Rocky"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "VRCSDKBase.dll",
+        "VRCSDK3.dll",
+        "VRC.Udon.Common.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

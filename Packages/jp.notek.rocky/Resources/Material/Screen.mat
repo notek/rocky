@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Screen
+  m_Shader: {fileID: 4800000, guid: 412ea878efbed224d97338aed34a773c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _EMISSION
+  - _GLOSSYREFLECTIONS_OFF
+  - _SPECULARHIGHLIGHTS_OFF
+  m_InvalidKeywords:
+  - _
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _PixelToggle
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: e5b174a8d905de44d938cdd3adf85546, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FallbackTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LogoTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PixelTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - DSGI: 0
+    - Instancing: 0
+    - LightmapFlags: 2
+    - _AngleMax: 90
+    - _AngleMin: 45
+    - _AngleToggle: 0
+    - _ApplyGamma: 0
+    - _BumpScale: 1
+    - _ChromaSpeed: 1
+    - _ChromaToggle: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DistanceMax: 25
+    - _DistanceMin: 20
+    - _DistanceToggle: 0
+    - _DstBlend: 0
+    - _Emission: 1
+    - _FallbackFade: 0
+    - _FallbackLogo: 0
+    - _FallbackLogo1: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _GrayscaleToggle: 0
+    - _Help10: 0
+    - _Help11: 0
+    - _Help12: 0
+    - _Help13: 0
+    - _Help14: 0
+    - _Help15: 0
+    - _Help16: 0
+    - _Help17: 0
+    - _Help18: 0
+    - _Help19: 0
+    - _Help2: 0
+    - _Help20: 0
+    - _Help21: 0
+    - _Help22: 0
+    - _Help23: 0
+    - _Help24: 0
+    - _Help3: 0
+    - _Help4: 0
+    - _Help5: 0
+    - _Help6: 0
+    - _Help7: 0
+    - _Help8: 0
+    - _Help9: 0
+    - _IsAVProInput: 1
+    - _LogoPosX: 0
+    - _LogoPosY: 0
+    - _LogoSizeX: 1
+    - _LogoSizeY: 1
+    - _LogoToggle: 0
+    - _MetaPassEmissiveBoost: 7.5
+    - _Metallic: 0
+    - _MirrorBlend: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _PanSpeedX: 0
+    - _PanSpeedY: 0
+    - _PanToggle: 0
+    - _Parallax: 0.02
+    - _PixelLimiterMax: 25
+    - _PixelLimiterMin: 5
+    - _PixelLimiterToggle: 0
+    - _PixelToggle: 0
+    - _PixelVisibility: 0
+    - _Smoothness: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 0
+    - _SrcBlend: 1
+    - _TargetAspectRatio: 1.7777777
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 1
+    - footer_booth: 0
+    - footer_discord: 0
+    - footer_github: 0
+    - footer_patreon: 0
+    - m_AVProSettings: 1
+    - m_ChromaOptions: 0
+    - m_FallbackOptions: 1
+    - m_GrayscaleOptions: 0
+    - m_LogoOptions: 0
+    - m_Main: 1
+    - m_Main1: 0
+    - m_MaskOptions: 0
+    - m_MirrorOptions: 0
+    - m_PanOptions: 0
+    - m_PixelOptions: 1
+    - m_end_AngleOptions: 0
+    - m_end_DistanceOptions: 0
+    - m_end_PixelDist: 0
+    - m_start_AngleOptions: 0
+    - m_start_DistanceOptions: 0
+    - m_start_PixelDist: 0
+    - shader_is_using_thry_editor: 69
+    - shader_master_label: 0
+    - shader_on_swap_to: 0
+    - shader_properties_label_file: 0
+    - variant_selector: 0
+    m_Colors:
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FallbackColor: {r: 0, g: 0, b: 0, a: 0}
+    - _GrayscaleColor: {r: 1, g: 1, b: 1, a: 0}
+    - _LogoColor: {r: 1, g: 1, b: 1, a: 0}
+    - _PixelColor: {r: 1, g: 1, b: 1, a: 0}
+    - _PixelResolution: {r: 256, g: 256, b: 0, a: 0}
+  m_BuildTextureStacks: []
